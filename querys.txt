@@ -1,0 +1,24 @@
+Ejercicio 1
+
+SELECT COUNT(flightID) FROM flights
+4758
+
+Ejercicio 2
+SELECT Origin , AVG(ArrDelay) AS promp_arribades, AVG(DepDelay) promp_sortides  
+FROM flights
+GROUP BY Origin;
+
+
+Ejercicio 3
+SELECT Origin, colYear, colMonth, ArrDelay AS promp_arribades
+FROM flights  
+ORDER BY Origin, colYear, colMonth
+
+
+Ejercicio 4
+
+
+Ejercicio 5
+
+
+Ejercicio 6
